@@ -27,7 +27,7 @@ pipeline {
             }
         }  
 
-         stage('Complete') {
+         stage('Finish') {
             steps {
                 echo 'Added completed message in new stage'
             }
