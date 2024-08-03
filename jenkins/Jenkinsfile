@@ -25,6 +25,13 @@ pipeline {
             steps {
                 echo 'Job Completed'
             }
+        }  
+
+         stage('Complete') {
+            steps {
+                echo 'Added completed message in new stage'
+            }
         }         
+        
     }
 }
